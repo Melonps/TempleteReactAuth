@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import LogIn from "../components/LogIn";
+import ShowHello from "../components/Hello";
 import { MainLogoDark } from "../components/Icon";
 
 import { Typography } from "@mui/material";
@@ -21,6 +22,7 @@ const SignInPage = () => {
             <section className="min-h-screen flex items-center justify-center py-20 text-dark dark:text-light">
                 <div>
                     <LogIn />
+                    <ShowHello />
                 </div>
             </section>
         </>
